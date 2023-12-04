@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="css/tailwindcss.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="flex pt-5 px-52 justify-between ">
+        <a href="/index.html" class="logo">
+            <img src="assets/logo.png" alt="" />
+        </a>
+        <button>
+
+            <a class="p-3 block rounded-md cursor-pointer text-white hover:bg-blue-700 transition-all bg-blue-500"
+            href="/signup.html">signup</a>
+        </button>
+
+    </nav>
+
+    <div class="flex justify-center flex-col  items-center  mt-20 relative">
+        
+        <p class="mb-2 text-2xl text-green-500 font-bold" id="success-login">
+            <span>
+                <img src="assets/spinner.svg" alt="">
+            </span>
+        </p>
+        <div class="bg-white p-8 rounded shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Login</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-700 text-sm font-bold mb-2">Username</label>
+                    <input type="text" id="username" name="username"
+                        class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                    <input type="password" id="password" name="password"
+                        class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                </div>
+                <button type="submit"
+                    class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomePage</title>
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="css/tailwindcss.js"></script>
+</head>
+
+<body class="no-scrollbar bg-gray-50 bg-[url('assets/grid.svg')]">
+  <nav class="flex items-center justify-between    py-9  max-w-5xl mx-auto ">
+    <div class="logo">
+      <img src="assets/logo.png" alt="" />
+    </div>
+    <ul class="flex gap-5 text-white">
+      <li><a class="p-3 rounded-md cursor-pointer hover:bg-blue-700 transition-all bg-blue-500"
+          href="/login.html">Login</a></li>
+      <li><a class="p-3 rounded-md cursor-pointer hover:bg-blue-700 transition-all bg-blue-500"
+          href="/signup.html">Signup</a></li>
+    </ul>
+  </nav>
+
+  <main class="relative ">
+    <section class="grid sm:grid-cols-2 justify-items-center gap-10 px-3 pt-24  max-w-5xl mx-auto">
+      <div class="flex gap-5 flex-col ">
+        <h1 class="text-6xl font-bold w-[500px] leading-[120%]">Welcome to the <strong
+            class="text-blue-500">Student</strong> Portal</h1>
+        <p class="text-gray-500 w-[450px]">
+          Step into our student portal—a central space designed for you. Access resources, connect with peers, and
+          simplify your learning journey. Dive in and explore everything you need to excel in your studies.
+        </p>
+
+      </div>
+      <div class="min-h-[500px] w-full">
+        <img class="sm:absolute w-[400px] right-32 ml-10" src="assets/student.svg" alt="" />
+      </div>
+    </section>
+    <!-- footer with a name obaid -->
+    <footer class="flex justify-center items-center bg-gray-50 py-10">
+      <p class="text-gray-500">Made with ❤️ by <a href="#" class="text-blue-500">Obaid</a></p>
+    </footer>
+  </main>
+</body>
+
+</html>
